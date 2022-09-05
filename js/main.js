@@ -36,8 +36,6 @@ elShoppingCheckForm.addEventListener("submit", (e)=> {
 
     var there = products.includes(checkInputValue);
     
-    elShoppingList.textContent = "";
-    
     if (there) {
         elCheckResult.textContent = "B O R";
     } else {
