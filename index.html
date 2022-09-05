@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +13,22 @@
         <h2 class="title">Bozorlik ro'yxati</h2>
 
         <form class="form shopping-form" action="https://echo.htmlacademy.ru" method="POST">
-            <div>
+            <div class="box">
                 <input class="input shopping-input" type="text" placeholder="Ro'yhat kiriting" 
                 aria-label="Enter a pruduct name" autocomplete="off" required>
             </div>
 
             <button class="btn shopping-btn" type="submit">A D D</button>
+        </form>
+
+        <form class="form shopping-check-form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="box">
+                <input class="input shopping-check-input" type="text" placeholder="Ro'yhat kiriting" 
+                aria-label="Enter a pruduct name" autocomplete="off" required>
+                <output class="check-result"></output>
+            </div>
+
+            <button class="btn shopping-check-btn" type="submit">Check</button>
         </form>
 
         <ul class="ul shopping-list"></ul>

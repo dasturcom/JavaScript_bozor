@@ -72,6 +72,7 @@ img {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 10px;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
@@ -103,4 +104,13 @@ ul {
     width: 5%;
     margin-left: auto;
     margin-right: auto;
+}
+
+output {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(90deg,#fc00ff, #00dbde); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
